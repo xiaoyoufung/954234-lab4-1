@@ -37,24 +37,8 @@ body:
   - type: textarea
     attributes:
       label: What are the details of your suggestion?
-      description: Also tell us, what did you expect to happen?
+      description: Explain what do you want
       placeholder: Tell us what you see!
       value: "Feature details!"
     validations:
       required: true
-    id: logs
-  - type: textarea
-    attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will
-        be automatically formatted into code, so no need for backticks.
-      render: shell
-    id: terms
-  - type: checkboxes
-    attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of
-        Conduct](https://example.com)
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
