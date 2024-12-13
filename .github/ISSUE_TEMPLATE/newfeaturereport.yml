@@ -12,7 +12,7 @@ body:
       placeholder: ex. Sertha Taweewattana
     validations:
       required: false
-          id: version
+    id: version
   - type: dropdown
     attributes:
       label: Version
