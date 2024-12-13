@@ -5,20 +5,21 @@ projects: ["octo-org/1", "octo-org/44"]
 assignees:
   - octocat
 body:
+    id: contact
   - type: input
     attributes:
       label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
+      description: What is your name?
+      placeholder: ex. Sertha Taweewattana
     validations:
       required: false
     id: what-happened
   - type: textarea
     attributes:
-      label: What happened?
+      label: What are the details of your suggestion?
       description: Also tell us, what did you expect to happen?
       placeholder: Tell us what you see!
-      value: "A bug happened!"
+      value: "Feature details!"
     validations:
       required: true
     id: version
