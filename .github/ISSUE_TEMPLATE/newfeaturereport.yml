@@ -12,16 +12,7 @@ body:
       placeholder: ex. Sertha Taweewattana
     validations:
       required: false
-    id: what-happened
-  - type: textarea
-    attributes:
-      label: What are the details of your suggestion?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "Feature details!"
-    validations:
-      required: true
-    id: version
+          id: version
   - type: dropdown
     attributes:
       label: Version
@@ -42,6 +33,15 @@ body:
         - Chrome
         - Safari
         - Microsoft Edge
+    id: what-happened
+  - type: textarea
+    attributes:
+      label: What are the details of your suggestion?
+      description: Also tell us, what did you expect to happen?
+      placeholder: Tell us what you see!
+      value: "Feature details!"
+    validations:
+      required: true
     id: logs
   - type: textarea
     attributes:
