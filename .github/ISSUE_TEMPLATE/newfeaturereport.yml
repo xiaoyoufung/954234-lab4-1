@@ -5,7 +5,6 @@ projects: ["octo-org/1", "octo-org/44"]
 assignees:
   - octocat
 body:
-    id: contact
   - type: input
     attributes:
       label: Contact Details
