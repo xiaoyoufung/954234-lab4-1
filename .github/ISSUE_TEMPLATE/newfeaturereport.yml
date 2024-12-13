@@ -12,21 +12,21 @@ body:
       placeholder: ex. Sertha Taweewattana
     validations:
       required: false
-    id: version
+          id: version
   - type: dropdown
     attributes:
-      label: Version
-      description: What version of our software are you running?
+      label: Type of request?
+      description: Select the type of your request
       options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
+        - New Feature
+        - Old Feature
       default: 0
     validations:
-      required: true
+      required: false
     id: browsers
   - type: dropdown
     attributes:
-      label: What browsers are you seeing the problem on?
+      label: What is the OS which you want to suggest?
       multiple: true
       options:
         - Firefox
